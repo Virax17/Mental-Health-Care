@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mental Health Awareness - India Focus</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <a href="index.html">
+                    <h1>| Mental Health Awareness</h1>
+                </a>
+            </div>
+            <nav>
+                <a href="index.html">Questionnaire</a>
+                <a href="stats.html">Statistics</a>
+                <a href="resources.html">Resources</a>
+                <a href="signup.html"> Sign up</a>
+                <a href="help.html">Get help</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1 id="chart-h1">Statistics on Student Suicide in India</h1>
+            
+            <section>
+                <h2>Student Suicide Rates in India (Year-wise)</h2>
+                <div class="chart-divs">
+                    <canvas id="suicide-rates-india"></canvas>
+                </div>
+                <a href="https://ncrb.gov.in/en/accidental-deaths-suicides-india-2019"><cite>National Crime Records Bureau - 2019 Data</cite></a>
+            </section>
+
+            <section>
+                <h2>Student Suicide by Age Group</h2>
+                <div class="chart-divs">
+                    <canvas id="suicide-age-group"></canvas>
+                </div>
+                <a href="https://www.livemint.com/news/india/student-suicides-in-india-every-hour-one-student-ends-life-11663323452985.html"><cite>Student Suicides in India - Livemint Report</cite></a>
+            </section>
+
+            <section>
+                <h2>Student Suicide by Gender</h2>
+                <div class="chart-divs">
+                    <canvas id="suicide-gender"></canvas>
+                </div>
+                <a href="https://ncrb.gov.in/sites/default/files/adsi-2019-full-report.pdf"><cite>NCRB Full Report 2019</cite></a>
+            </section>
+
+            <section>
+                <h2>Student Suicide by Region</h2>
+                <div class="chart-divs">
+                    <canvas id="suicide-region"></canvas>
+                </div>
+                <a href="https://theprint.in/india/indias-student-suicide-crisis-why-numbers-are-high-despite-educational-progress/351204/"><cite>The Print - India's Student Suicide Crisis</cite></a>
+            </section>
+        </main>
+
+        <script src="india-stats.js"></script>
+    </body>
+</html>
+
