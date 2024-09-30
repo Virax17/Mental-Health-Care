@@ -331,7 +331,7 @@ figure figcaption {
 }
 
 #banner-image {
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.2)), url("assets/banner-image.jpeg");
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.2)), url("assets/apple.png");
     background-size: cover;
     background-size: 100%;
     background-position-y: 30%;
