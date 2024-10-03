@@ -3,10 +3,10 @@ const ctx1 = document.getElementById('suicide-rates-india').getContext('2d');
 const suicideRatesIndiaChart = new Chart(ctx1, {
     type: 'line',
     data: {
-        labels: ['2015', '2016', '2017', '2018', '2019', '2020'],
+        labels: ['2015', '2016', '2017', '2018', '2019', '2020','2021','2022','2023'],
         datasets: [{
             label: 'Student Suicides per Year',
-            data: [8572, 9123, 9438, 10159, 10925, 12375], // Sample data
+            data: [8572, 9123, 9438, 10159, 10925, 12375, 12845, 13123,14564], // Sample data
             borderColor: 'rgba(255, 99, 132, 1)',
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             fill: true,
