@@ -33,7 +33,7 @@ const suicideAgeGroupChart = new Chart(ctx2, {
 // Data for Suicide by Gender
 const ctx3 = document.getElementById('suicide-gender').getContext('2d');
 const suicideGenderChart = new Chart(ctx3, {
-    type: 'pie chart',
+    type: 'pie',
     data: {
         labels: ['Male', 'Female'],
         datasets: [{
