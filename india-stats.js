@@ -97,7 +97,7 @@ const ptsdChart = new Chart(ctx6, {
 // Data for Students Who Received Treatment
 const ctx7 = document.getElementById('received-treatment').getContext('2d');
 const receivedTreatmentChart = new Chart(ctx7, {
-    type: 'pie',
+    type: 'bar',
     data: {
         labels: ['Received Treatment', 'Did Not Receive Treatment'],
         datasets: [{
